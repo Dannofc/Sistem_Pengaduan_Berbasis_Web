@@ -1,0 +1,105 @@
+/* Card login user mirip admin, tanpa background gradient */
+body {
+    background: #ebebeb;
+    min-height: 100vh;
+}
+
+.card-login {
+    max-width: 400px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.07);
+    padding: 32px 28px 24px 28px;
+}
+
+.card-login h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+    font-family: monospace;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    outline: none
+}
+
+.btn-block {
+    border-radius: 6px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 30px;
+}
+
+.btn-primary:hover {
+    background: #1565c0;
+    color: #fff;
+}
+
+.card-shadow-2 {
+    box-shadow: 0 2px 8px #b2dfdb33;
+}
+
+.form-check-label {
+    font-size: 13px;
+    color: #757575;
+}
+
+.text-danger {
+    color: #e53935;
+}
+
+hr.custom {
+    border-top: 2px solid #b2dfdb;
+    margin: 18px 0;
+}
+
+
+@media (max-width: 500px) {
+    .card-login {
+        margin: 24px auto;
+        padding: 18px 8px 16px
+    }
+}
+
+.username {
+    display: flex;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    font-family: calibri;
+}
+
+.password {
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    font-family: calibri;
+}
+
+.form-check {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.link-text {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
